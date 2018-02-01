@@ -1,5 +1,5 @@
 rm(list = ls()) # remove global environment
-setwd("Donne96/PBfB_Pop_structure") # set working directory
+setwd("${HOME}/PBfB_Pop_structure") # set working directory
 
 # Load packages
 library(xlsx)
