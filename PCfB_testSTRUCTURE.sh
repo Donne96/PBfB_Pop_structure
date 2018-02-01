@@ -5,6 +5,6 @@
 #5 is the number of K for which structure is tested.
 for k in {1..5}; do for rep in {1..10};
 do 
-structure -m Donne96/PBfB_Pop_structure/mainparams -e Donne96/PBfB_Pop_structure_extraparams -i Donne96/PBfB_Pop_structure/WS_struc_msat.txt -K ${k} -o /$HOME/Documents/Results_WSPopstruc/outfile_k${k}_rep${rep}
+structure -m Donne96/PBfB_Pop_structure/mainparams -e Donne96/PBfB_Pop_structure_extraparams -i Donne96/PBfB_Pop_structure/WS_struc_msat.txt -K ${k} -o ${HOME}/Documents/Results_WSPopstruc/outfile_k${k}_rep${rep}
 done
 done
