@@ -11,11 +11,11 @@ R requires a .xlsx file containing sample ID (with header), sample site & micros
 Structure requires a .txt file containing sample ID (without header), sample site & microsatalite date (alleles seperated using '/' for each locus).
 
 ### Source shark data:
-#### Article citing:
+**Article citing:**
 Vignaud TM, Maynard JA, Leblois R, Meekan MG, Vázquez-Juárez R, Ramírez-Macías D, Pierce S, Rowat D, Berumen ML, Beeravolu C, Baksay S, Planes S (2014) Genetic structure of populations of whale sharks among ocean basins and evidence for their historic rise and recent decline. Molecular Ecology 23(10): 2590-2601. https://doi.org/10.1111/mec.12754
-#### Dryad reference:
+**Dryad reference:**
 Vignaud TM, Maynard JA, Leblois R, Meekan MG, Vázquez-Juárez R, Ramírez-Macías D, Pierce SJ, Rowat D, Berumen ML, Beeravolu C, Baksay S, Planes S (2014) Data from: Genetic structure of populations of whale sharks among ocean basins and evidence for their historic rise and recent decline. Dryad Digital Repository. https://doi.org/10.5061/dryad.489s0
-#### Link to page:
+**Link to page:**
 http://datadryad.org/resource/doi:10.5061/dryad.489s0
 
 ## Scripts
@@ -31,3 +31,6 @@ Analyse the heterosigosy of all loci and test if locy depart from HWE. It return
 
 ### Shell script
 Runs STRUCTURE
+
+### INSTRUCTIONS
+How to use script
