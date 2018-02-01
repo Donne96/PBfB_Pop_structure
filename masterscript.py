@@ -28,5 +28,5 @@ if float(ElementList[10]) >= Threshold:
     print 'Treshhold passed'
     subprocess.call (["/bin/bash", Sscript])
 else:
-    # inform uer threshold has not been reached
+    # inform user threshold has not been reached
     print 'Threshold not passed'
