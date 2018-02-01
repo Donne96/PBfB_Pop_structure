@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 # load packages required for running 
 import subprocess
+import os
+
+#set working directory
+os.chdir("~/PBfB_Pop_structure/")
 
 # load scripts
 Rscript = "~/PBfB_Pop_structure/PCfB_testHW.R" # R script
