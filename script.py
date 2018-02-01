@@ -3,8 +3,8 @@
 import subprocess
 
 # load scripts
-Rscript = "/home/titus/Documents/Practical_Computing_for_Biologists/project/PCfB_testHW.R" # R script
-Sscript = "/home/titus/Documents/Practical_Computing_for_Biologists/project/PCfB_testSTRUCTURE.sh" # Shell script to run STRUCTURE
+Rscript = "Donne96/PBfB_Pop_structure/PCfB_testHW.R" # R script
+Sscript = "Donne96/PBfB_Pop_structure/PCfB_testSTRUCTURE.sh" # Shell script to run STRUCTURE
 
 # start R script to test if loci heterozygosity depard from HWE
 subprocess.call (["/usr/bin/Rscript", Rscript])
