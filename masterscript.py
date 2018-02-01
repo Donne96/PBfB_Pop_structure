@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# load packages
+# load packages required for running 
 import subprocess
 
 # load scripts
