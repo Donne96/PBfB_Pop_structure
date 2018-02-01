@@ -1,5 +1,5 @@
 rm(list = ls()) # remove global environment
-setwd("/home/titus/Documents/Practical_Computing_for_Biologists/project/") # set working directory
+setwd("Donne96/PBfB_Pop_structure") # set working directory
 
 # Load packages
 library(xlsx)
