@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #create directory for the structure output to be stored
-mkdir -p /PBfB_Pop_structure/Results_WSPopstruc
+mkdir -p ~/PBfB_Pop_structure/Results_WSPopstruc
 
 #A for loop is created within a for loop to create replicates for each K value
 #3 is the number of replicates at each value of K.
