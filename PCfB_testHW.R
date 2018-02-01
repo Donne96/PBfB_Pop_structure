@@ -38,8 +38,8 @@ output <- as.matrix(cbind("RESULTS hw.test:","Pr.exact mean:",
 output_detailed <- HW.TEST
 
 # create output files and inform user
-write(output, file = "~/PBfB_Pop_structure/output_Rscript.txt",append=FALSE)
-write.table(output_detailed, file = "~/PBfB_Pop_structure/output_Rscript_detailed.txt",sep='\t',append=FALSE) # tab delimited
+write(output, file = "output_Rscript.txt",append=FALSE)
+write.table(output_detailed, file = "output_Rscript_detailed.txt",sep='\t',append=FALSE) # tab delimited
 # WARNING: header in output_Rscript_detailed.txt not alligned with their column. Move one column to its right!
 print('Output files written and saved in current directory:')
 print('output_Rscript.txt & output_Rscript_detailed.txt.')
