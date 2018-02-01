@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#create directory for the structure output to be stored
+mkdir -p ${HOME}/Documents/Results_WSPopstruc
+
 #A for loop is created within a for loop to create replicates for each K value
 #3 is the number of replicates at each value of K.
 #5 is the number of K for which structure is tested.
