@@ -11,7 +11,7 @@ subprocess.call (["/usr/bin/Rscript", Rscript])
 # 2 files created: output_Rscript.txt & output_Rscript_detailed.txt
 
 # read output of R script
-outputRscript = "output_Rscript.txt"
+outputRscript = "~/PBfB_Pop_structure/output_Rscript.txt"
 outputR = open(outputRscript,"rt")
 contentR = outputR.read()
 print contentR
